@@ -1,0 +1,236 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(25, 2, 56);
+    
+  }
+  canvas {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .chu1{
+      color:#7b990f;
+      padding-top: 0%;
+      text-align: center;
+      font-size: 35px;
+      font-family: Arial;
+      animation: textFly 2s forwards;
+  
+  }
+  .chu3{
+      color: #7b990f;
+      padding-top: 4%;
+      text-align: center;
+      font-size: 37px;
+      font-family: Arial;
+      animation: textFly 2s forwards;
+      animation-delay: 3s;
+      opacity: 0;
+  }
+  .chu4{
+      color: #7b990f;
+      padding-top: 0%;
+      text-align: center;
+      font-size: 37px;
+      font-family: Arial;
+      animation: textFly 2s forwards;
+      animation-delay: 3s;
+      opacity: 0;
+  }
+  .chu5{
+      color: #7b990f;
+      padding-top: 0%;
+      text-align: center;
+      font-size: 35px;
+      font-family: Arial;
+      animation: textFly 2s forwards;
+      animation-delay: 4s;
+      opacity: 0;
+  }
+@keyframes textFly {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.anh1{
+    text-align: center;
+    padding-top: 3%;
+    animation: textFly 1s forwards;
+    animation-delay: 2s;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+@keyframes textFlyin {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+    to {
+        bottom: 10;
+        opacity: 1;
+    }
+}
+.bao{
+    text-align: center;
+    padding-top: 2%;
+    animation: textFlyin 1s forwards;
+    animation-delay: 5s;
+    opacity: 0;
+}
+.bao1{
+    text-align: left;
+    padding-top: 2%;
+    animation: textFlyin 1s forwards;
+    animation-delay: 5s;
+    opacity: 0;
+    color: #7b990f;
+    font-size: 35px;
+    font-family: monospace;
+    text-indent: 50px;
+}
+ul.bao li:hover img{
+    transform: scale(
+        1.5
+    );
+
+}
+ul.bao li a img{
+    transition: all 0.3s ease-in-out;
+}
+ul.bao li {
+    overflow: hidden;
+}
+.chu1 img{
+    text-align: left;
+    animation: spiner 1s infinite;
+    
+}
+@keyframes spiner {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.duc{
+    text-align: center;
+    padding-top: 3%;
+    animation: textFlyin 1s forwards;
+    animation-delay: 5s;
+    opacity: 0;
+
+}
+.duc1{
+    text-align: left;
+    padding-top: 2%;
+    animation: textFlyin 1s forwards;
+    animation-delay: 5s;
+    opacity: 0;
+    color: #7b990f;
+    font-size: 35px;
+    font-family: monospace;
+    text-indent: 50px;
+}
+.quanga{
+    text-align: center;
+    padding-top: 3%;
+    animation: textFlyin 1s forwards;
+    animation-delay: 5s;
+    opacity: 0;
+}
+.quang{
+    text-align: left;
+    padding-top: 2%;
+    animation: textFlyin 1s forwards;
+    animation-delay: 5s;
+    opacity: 0;
+    color: #7b990f;
+    font-size: 35px;
+    font-family: monospace;
+    text-indent: 50px;
+}
+.dung{
+    text-align: center;
+    padding-top: 3%;
+    animation: textFlyin 1s forwards;
+    animation-delay: 5s;
+    opacity: 0;
+}
+.dung1{
+    text-align: left;
+    padding-top: 2%;
+    animation: textFlyin 1s forwards;
+    animation-delay: 5s;
+    opacity: 0;
+    color: #7b990f;
+    font-size: 35px;
+    font-family: monospace;
+    text-indent: 50px;
+}
+.hoang{
+    text-align: center;
+    padding-top: 3%;
+    animation: textFlyin 1s forwards;
+    animation-delay: 5s;
+    opacity: 0;
+}
+.hoang1{
+    text-align: left;
+    padding-top: 2%;
+    animation: textFlyin 1s forwards;
+    animation-delay: 5s;
+    opacity: 0;
+    color: #7b990f;
+    font-size: 35px;
+    font-family: monospace;
+    text-indent: 50px;
+}
+@keyframes animate {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.2);
+    }
+}
+.heart{
+    animation: animate alternate 0.5s infinite;
+
+    text-align: center;
+    padding-top: 3%;
+}
+.co{
+    text-align: center;
+    padding-top: 3%;
+    animation: textFlyin 1s forwards;
+    animation-delay: 5s;
+    opacity: 0;
+}
+.to1{
+    text-align: left;
+    padding-top: 0%;
+    animation: textFlyin 1s forwards;
+    animation-delay: 5s;
+    opacity: 0;
+    color: #7b990f;
+    font-size: 35px;
+    font-family: monospace;
+    text-indent: 50px;
+}
+.to12{
+    text-align: left;
+    padding-top: 0%;
+    animation: textFlyin 1s forwards;
+    animation-delay: 5s;
+    opacity: 0;
+    color: #7b990f;
+    font-size: 35px;
+    font-family: monospace;
+    text-indent: 50px;
+}
